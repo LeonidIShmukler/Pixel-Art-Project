@@ -10,7 +10,7 @@ colorPicker.addEventListener('input', () => {
   selectedColor = colorPicker.value;
 });
 
-sizePicker.addEventListener('submit', (event) =>{
+sizePicker.addEventListener('submit', (event) => {
   event.preventDefault();
   resetGrid();
   makeGrid();  
